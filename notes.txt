@@ -1,0 +1,34 @@
+1 Install package.json - npm init -y
+2 Install express, cors, mongoose and env - npm i express cors mongoose dotenv
+            env(environment variable-to update values during running)   
+            mongoose(connect mongo & nodejs)
+            node modules comes with installing express and express is necessary to create server and import anything to index file.
+3 index step 1-9
+4 .env DATABASE(connection string)
+5 db->connection.js 
+
+        NODE SERVER FOLDER
+----------------------------------------------
+1 create server folder 
+2 create package.json 
+3 create index.js, .env files in server folder 
+4 install express, cors, dotenv, and mongoose 
+5 import express, cors, dotenv, in index.js 
+6 create server app using express 
+7 use cors(), express.json() in server app 
+8 Define port number 
+9 Define routes for client requests - create routes folder and router.js file 
+    =>import express 
+    =>using express, create an object for router class inorder to setup path 
+    =>resolving client requests 
+
+        MONGODB ATLAS CONNECTION 
+-------------------------------------------------
+1 copy connection string from atlas and paste it into .env file 
+2 create db folder, and connection.js in it 
+3 In connection.js, import mongoose 
+4 get db connection string from .env file 
+5 use mongoose connect to connect MONGODB within node application 
+6 import connection.js in index.js 
+7 create a model/collection to store products in model folder (productSchema)
+8 export schema 
